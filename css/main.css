@@ -1,0 +1,100 @@
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+body {
+	font-family: 'Oxygen', sans-serif;
+	color:white;
+	overflow: hidden;
+	background-color: black;
+	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.container {
+
+}
+
+.fixeddiv {
+	position:relative;
+}
+.splashpage {
+	height:100vh;
+}
+.navbar-brand {
+	text-align:right;
+}
+
+#fix {
+	height=10vh;
+	position:fixed;
+}
+#swagcontainer  {
+  width : 100%; 
+  height : 100%; 
+  top : 0px; 
+  left : 0px;
+  margin : 0px;
+  padding : 0px;
+  position: absolute;
+  z-index: -1;
+  height:100vh;
+}
+.navbar {
+	text-align:right;
+	border-bottom-width:2px;
+	border-bottom-color:gray;
+	height:7%;
+}
+
+.padtop2 {
+	padding-top:35%;
+	padding-bottom:1%;
+	text-align:center;
+}
+.padtop {
+	padding-top:8%;
+	padding-bottom:1%;
+	text-align:center;
+}
+
+.maintext {
+	text-align:center;
+}
+
+.centerr {
+	text-align:center;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: gold;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #B20000;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
